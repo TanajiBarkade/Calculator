@@ -34,7 +34,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="AC">
                                                             <attributes>
-                                                                <font key="NSFont" size="35" name="Avenir-Black"/>
+                                                                <font key="NSFont" size="35" name="Arial-Black"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -512,6 +512,9 @@
                                     </stackView>
                                 </subviews>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.84999999999999998" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zth-BT-RP9" secondAttribute="bottom" id="Gc7-Zn-zfX"/>
+                                </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01234456789" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyR-8o-F5d">
                                 <rect key="frame" x="29" y="133" width="360" height="261"/>
@@ -568,7 +571,7 @@
             <size key="intrinsicContentSize" width="45" height="62"/>
         </designable>
         <designable name="OI4-iq-596">
-            <size key="intrinsicContentSize" width="74" height="62"/>
+            <size key="intrinsicContentSize" width="72" height="55"/>
         </designable>
         <designable name="QrK-6Z-cWl">
             <size key="intrinsicContentSize" width="47.5" height="60"/>
